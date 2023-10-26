@@ -98,4 +98,6 @@ def insects():
             
         
         return {"message": "Record doesn't exists"}, 404
-    
+
+if __name__ == "__main__":
+    app.run()
