@@ -1,0 +1,119 @@
+[
+    {
+        "id": "e368c8c0-6dfe-11ee-a31d-23ea1f0d040f",
+        "name": "leaf-rolling weevil",
+        "species": "Weevils",
+        "number_of_legs": "6",
+        "has_wings": false,
+        "is_dangerous": false,
+        "age": "5"
+    },
+    {
+        "id": "bfe1abf0-6dff-11ee-b37b-795d26d99de2",
+        "name": "Rhynchophthirinan",
+        "species": "Lice",
+        "number_of_legs": "6",
+        "has_wings": false,
+        "is_dangerous": false,
+        "age": "1"
+    },
+    {
+        "id": "429170e0-6dff-11ee-b37b-795d26d99de2",
+        "name": "Damselfly",
+        "species": "Dragonflies",
+        "number_of_legs": "6",
+        "has_wings": true,
+        "is_dangerous": false,
+        "age": "3"
+    },
+    {
+        "id": "88587290-6dff-11ee-b37b-795d26d99de2",
+        "name": "Silverfish",
+        "species": "Apterygote",
+        "number_of_legs": "12",
+        "has_wings": false,
+        "is_dangerous": false,
+        "age": "1"
+    },
+    {
+        "id": "cfa62630-6dfd-11ee-a0d0-7794b72bf07a",
+        "name": "Arush-footed butterflies",
+        "species": "Butterflies",
+        "number_of_legs": "6",
+        "has_wings": true,
+        "is_dangerous": false,
+        "age": "5"
+    },
+    {
+        "id": "6009ff20-6dff-11ee-b37b-795d26d99de2",
+        "name": "Cicada",
+        "species": "Homopterans",
+        "number_of_legs": "6",
+        "has_wings": true,
+        "is_dangerous": false,
+        "age": "2"
+    },
+    {
+        "id": "2f0d1a60-6dff-11ee-b37b-795d26d99de2",
+        "name": "Grasshopper",
+        "species": "Crickets",
+        "number_of_legs": "6",
+        "has_wings": false,
+        "is_dangerous": false,
+        "age": "4"
+    },
+    {
+        "id": "f0cc5320-6dfd-11ee-a0d0-7794b72bf07a",
+        "name": "Ladybug",
+        "species": "Beetles",
+        "number_of_legs": "6",
+        "has_wings": false,
+        "is_dangerous": false,
+        "age": "2"
+    },
+    {
+        "id": "dd6d8600-6dfd-11ee-a0d0-7794b72bf07a",
+        "name": "Hornet",
+        "species": "Wasps",
+        "number_of_legs": "6",
+        "has_wings": true,
+        "is_dangerous": true,
+        "age": "1"
+    },
+    {
+        "id": "636d8760-6dfd-11ee-ac6f-d5d944bf5ede",
+        "name": "Bee",
+        "species": "Bees",
+        "number_of_legs": "6",
+        "has_wings": true,
+        "is_dangerous": true,
+        "age": "2"
+    },
+    {
+        "id": "760aee60-6dff-11ee-b37b-795d26d99de2",
+        "name": "Leaf insect",
+        "species": "Walkingsticks",
+        "number_of_legs": "6",
+        "has_wings": false,
+        "is_dangerous": false,
+        "age": "7"
+    },
+    {
+        "id": "192a2fe0-6dfe-11ee-a0d0-7794b72bf07a",
+        "name": "Mosquito",
+        "species": "Flies",
+        "number_of_legs": "6",
+        "has_wings": true,
+        "is_dangerous": false,
+        "age": "8"
+    },
+    {
+        "id": "588a0da0-6dfd-11ee-ac6f-d5d944bf5ede",
+        "name": "Ant",
+        "species": "Ants",
+        "number_of_legs": "6",
+        "has_wings": false,
+        "is_dangerous": false,
+        "age": "3"
+    }
+]
