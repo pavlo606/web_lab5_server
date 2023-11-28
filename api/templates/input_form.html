@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arduino</title>
+</head>
+<body>
+    <form action="" method="post" enctype="multipart/form-data">
+        <label for="title">Title</label>
+        <br>
+        <input type="text" name="title" size="60"
+            placeholder="Message title"
+            value="{{ request.form['title'] }}"></input>
+        <br>
+
+        <label for="product_description">Product description</label>
+        <br>
+        <textarea name="product_description"
+            placeholder="Product description"
+            rows="25"
+            cols="180"
+            >{{ request.form['product_description'] }}</textarea>
+        <br>
+
+        <label for="category">Category</label>
+        <br>
+        <input type="text" name="category"
+            placeholder="category"
+            value="{{ request.form['category'] }}"></input>
+        <br>
+
+        <label for="price">Price</label>
+        <br>
+        <input type="text" name="price"
+            placeholder="price"
+            value="{{ request.form['price'] }}"></input>
+        <br>
+
+        <label for="quantity">Quantity</label>
+        <br>
+        <input type="number" name="quantity"
+            placeholder="quantity"
+            value="{{ request.form['quantity'] }}"></input>
+        <br>
+
+        <label for="rating">Rating</label>
+        <br>
+        <input type="text" name="rating"
+            placeholder="rating"
+            value="{{ request.form['rating'] }}"></input>
+        <br>
+
+        <input id="fileupload" name="myfile" type="file" accept="image/jpeg, image/png, image/jpg" onchange="readURL(this);" />
+        <br>
+
+        <img id="blah" src="#" alt="your image" width="200px" />
+        <br>
+
+        <button type="submit">Submit</button>
+    </form>
+    <script>
+        function readURL(input) {
+        if (input.files && input.files[0]) {
+            var reader = new FileReader();
+
+            reader.onload = function (e) {
+                document.getElementById("blah").src = e.target.result;
+            };
+
+            reader.readAsDataURL(input.files[0]);
+        }
+        }
+    </script>
+</body>
+</html>
